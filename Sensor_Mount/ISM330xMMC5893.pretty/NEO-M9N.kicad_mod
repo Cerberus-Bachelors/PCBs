@@ -76,17 +76,6 @@
 		(layer "F.SilkS")
 		(uuid "7b2d8dba-30e4-4f72-8541-04bc13e6b625")
 	)
-	(fp_rect
-		(start 20.32 -12.7)
-		(end 29.972 -3.556)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "3c233a3c-52db-40f4-a136-04070b0630c8")
-	)
 	(fp_line
 		(start 0 -12.7)
 		(end 20.32 -12.7)
@@ -106,6 +95,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "0db70fe9-14a2-4829-85f7-b337da602ef5")
+	)
+	(fp_rect
+		(start 20.32 -12.7)
+		(end 29.972 -3.556)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3c233a3c-52db-40f4-a136-04070b0630c8")
 	)
 	(fp_circle
 		(center -17.78 -16.002)
@@ -169,6 +169,19 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e3e509bc-2b1e-4b60-aff7-870f5d059466")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Keep Away"
+		(at 21.336 -7.366 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "929ccd50-c651-4a4a-b9c7-96a7a3118b18")
 		(effects
 			(font
 				(size 1 1)
