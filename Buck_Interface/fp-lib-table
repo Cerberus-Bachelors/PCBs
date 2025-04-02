@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Buck_Converter")(type "KiCad")(uri "${KIPRJMOD}/CustomLib/Buck_Converter.pretty")(options "")(descr ""))
+)

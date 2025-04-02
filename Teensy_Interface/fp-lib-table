@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Teensy_13_pin")(type "KiCad")(uri "${KIPRJMOD}/Libs/Teensy_13_pin.pretty")(options "")(descr ""))
+  (lib (name "Teensy")(type "KiCad")(uri "${KIPRJMOD}/Libs/Teensy.pretty")(options "")(descr ""))
+)

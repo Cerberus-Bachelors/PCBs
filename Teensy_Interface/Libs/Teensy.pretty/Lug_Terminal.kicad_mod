@@ -1,0 +1,101 @@
+(footprint "Lug_Terminal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.374 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "296ce9f9-3ce2-41f3-aef1-e66e2d03bca8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Lug_Terminal"
+		(at 0 -7.874 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1135b448-7853-4706-b4b0-e26ffb38adbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -8.874 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa49ea7c-777f-4e2e-8d4f-3f0e66cfe4cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -8.874 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27bd95cf-b96d-4080-afb0-266e9bec8770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.54 -4.953)
+		(end 2.794 4.572)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3769fec9-d016-47a1-ae6b-b854b56d301e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.374 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47c26b21-7678-4fa1-8674-2e37aac80124")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -3.2512)
+		(size 2.54 2.54)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a9d29be3-3672-43c2-8a6a-bd0fa2df6438")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 2.7432)
+		(size 2.54 2.54)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f80afaaf-9209-4c16-a2a2-4efb92b84871")
+	)
+	(embedded_fonts no)
+)
